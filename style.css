@@ -1,0 +1,76 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(39, 39, 39);
+    color: white;
+}
+
+.container{
+    display: inline;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+.title {
+    font-weight:800;
+    font-size: 100px;
+}
+
+.form-rounded {
+    border-radius: 2em;
+    font-size: 60px;
+}
+
+.back-card {
+    display: inline-block;
+    border-radius: 2em;
+    background-color: black;
+}
+
+.city-name {
+    font-size: 60px;
+}
+
+.temp span {
+    font-weight: 100;
+    font-size: 6em;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.condition-temp {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.condition {
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: capitalize;
+    color:#f2cb05
+    
+}
+
+.high::before{
+    content: '';
+    background: url(img/up.png);
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+.low::before{
+    content: '';
+    background: url(img/down.png);
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
